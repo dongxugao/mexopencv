@@ -45,7 +45,7 @@
 
 # programs
 ifdef WITH_OCTAVE
-MATLABDIR ?= /usr
+MATLABDIR ?= Applications/MATLAB_R2015b
 MEX       ?= $(MATLABDIR)/bin/mkoctfile --mex
 MATLAB    ?= $(MATLABDIR)/bin/octave-cli --no-gui --no-window-system --quiet
 else
